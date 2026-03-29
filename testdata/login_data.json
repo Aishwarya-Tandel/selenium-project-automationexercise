@@ -1,0 +1,12 @@
+{
+    "login" : [
+      {
+            "email" : "a1234@gmail.com",
+            "password" : "a1234"
+      },
+      {
+        "email" : "b1234@gmail.com",
+        "password" : "b1234"
+      }
+    ]
+}
