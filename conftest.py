@@ -3,8 +3,9 @@ import time
 from selenium import webdriver
 import pytest
 
-######### At run time decide , need to run test on which browser ?
+"""At run time decide , need to run test on which browser ?
 #1 - tell browser that this command exist
+"""
 def pytest_addoption(parser):
     parser.addoption("--browser",
                       default = 'chrome',

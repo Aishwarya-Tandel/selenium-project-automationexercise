@@ -1,0 +1,5 @@
+2026-04-01 23:58:23,687 - testcases.test_login - test_login - *********** Login Test Starts ***********
+2026-04-01 23:58:28,197 - testcases.test_login - test_login - successfullly clicked on login/signup
+2026-04-01 23:58:31,547 - testcases.test_login - test_login - landed to login menu
+2026-04-01 23:58:34,822 - testcases.test_login - test_login - entered username and password
+2026-04-01 23:58:34,822 - testcases.test_login - test_login - *********** Login Test Ends ***********

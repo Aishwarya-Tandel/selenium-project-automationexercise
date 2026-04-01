@@ -3,10 +3,8 @@
       {
             "email" : "a1234@gmail.com",
             "password" : "a1234"
-      },
-      {
-        "email" : "b1234@gmail.com",
-        "password" : "b1234"
       }
-    ]
+    ],
+    "comment_as_we_cant_put_comment_here" : "we can directly put in INI file also, as we are using same id/pass for login so it is 1 only entry so no data driven testing also fine "
+
 }

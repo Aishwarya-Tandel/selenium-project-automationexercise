@@ -1,0 +1,20 @@
+2026-04-02 00:00:44,633 - testcases.test_login - test_login - *********** Login Test Starts ***********
+2026-04-02 00:00:47,845 - testcases.test_login - test_login - successfullly clicked on login/signup
+2026-04-02 00:00:49,161 - testcases.test_login - test_login - landed to login menu
+2026-04-02 00:00:54,929 - testcases.test_login - test_login - entered username and password
+2026-04-02 00:00:54,929 - testcases.test_login - test_login - *********** Login Test Ends ***********
+2026-04-02 00:02:40,865 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
+2026-04-02 00:03:06,323 - INFO - testcases.test_login - test_login - successfullly clicked on login/signup
+2026-04-02 00:03:08,055 - INFO - testcases.test_login - test_login - landed to login menu
+2026-04-02 00:03:12,708 - INFO - testcases.test_login - test_login - entered username and password
+2026-04-02 00:03:12,708 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
+2026-04-02 00:04:06,028 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
+2026-04-02 00:04:31,726 - INFO - testcases.test_login - test_login - successfullly clicked on login/signup
+2026-04-02 00:04:33,510 - INFO - testcases.test_login - test_login - landed to login menu
+2026-04-02 00:04:39,377 - INFO - testcases.test_login - test_login - entered username and password
+2026-04-02 00:04:39,378 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
+2026-04-02 00:06:50,834 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
+2026-04-02 00:06:56,114 - DEBUG - testcases.test_login - test_login - successfullly clicked on login/signup
+2026-04-02 00:06:58,719 - DEBUG - testcases.test_login - test_login - landed to login menu
+2026-04-02 00:07:02,454 - DEBUG - testcases.test_login - test_login - entered username and password
+2026-04-02 00:07:02,454 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
