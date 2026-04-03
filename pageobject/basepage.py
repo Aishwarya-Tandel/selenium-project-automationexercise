@@ -1,4 +1,7 @@
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Common_Base_Page:
@@ -17,6 +20,8 @@ class Common_Base_Page:
     test = (By.LINK_TEXT, "Test Cases")
     #contact menu locator
     contact = (By.LINK_TEXT, "Contact us")
+    #logout menu locator
+    logout = (By.XPATH,"//a[@href='/logout']")
     # subscription locator
     subscription_email = (By.ID,"susbscribe_email")
     subscription_click = (By.ID,"subscribe")
@@ -28,13 +33,28 @@ class Common_Base_Page:
     def cart_menu(self):
         self.driver.find_element(*self.cart).click()
     def signup_login_menu(self):
-        self.driver.find_element(*self.signup_login).click()
+        self.wait_for_clickable(self.signup_login).click()
+        # self.driver.find_element(*self.signup_login).click()
     def test_menu(self):
         self.driver.find_element(*self.test).click()
     def contact_menu(self):
         self.driver.find_element(*self.contact).click()
+
+    def logout_menu(self):
+        self.driver.find_element(*self.logout).click()
+
     def subscription(self,email):
         self.driver.find_element(*self.subscription_email).send_keys(email)
         self.driver.find_element(*self.subscription_click).click()
+
+    #wait till element clickable logic
+    def wait_for_clickable(self,element):
+        wait  = WebDriverWait(self.driver,15)
+        return wait.until(expected_conditions.element_to_be_clickable(element))
+
+    # scroll down till element
+    def scroll_down(self,element):
+        action = ActionChains()
+        return action.move_to_element(element)
 
 

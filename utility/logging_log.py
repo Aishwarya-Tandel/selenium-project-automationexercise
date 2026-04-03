@@ -15,7 +15,7 @@ class Log_store:
             path = os.path.join(folder,"test_logs.log")
             file_handler = logging.FileHandler(path)
 
-            format = logging.Formatter("%(asctime)s - %(levelname)s - %(name)s - %(funcName)s - %(message)s")
+            format = logging.Formatter("%(asctime)s - %(levelname)s - %(name)s - %(lineno)d - %(funcName)s - %(message)s")
             file_handler.setFormatter(format)
 
             logger.addHandler(file_handler)

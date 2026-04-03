@@ -1,20 +1,161 @@
-2026-04-02 00:00:44,633 - testcases.test_login - test_login - *********** Login Test Starts ***********
-2026-04-02 00:00:47,845 - testcases.test_login - test_login - successfullly clicked on login/signup
-2026-04-02 00:00:49,161 - testcases.test_login - test_login - landed to login menu
-2026-04-02 00:00:54,929 - testcases.test_login - test_login - entered username and password
-2026-04-02 00:00:54,929 - testcases.test_login - test_login - *********** Login Test Ends ***********
-2026-04-02 00:02:40,865 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
-2026-04-02 00:03:06,323 - INFO - testcases.test_login - test_login - successfullly clicked on login/signup
-2026-04-02 00:03:08,055 - INFO - testcases.test_login - test_login - landed to login menu
-2026-04-02 00:03:12,708 - INFO - testcases.test_login - test_login - entered username and password
-2026-04-02 00:03:12,708 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
-2026-04-02 00:04:06,028 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
-2026-04-02 00:04:31,726 - INFO - testcases.test_login - test_login - successfullly clicked on login/signup
-2026-04-02 00:04:33,510 - INFO - testcases.test_login - test_login - landed to login menu
-2026-04-02 00:04:39,377 - INFO - testcases.test_login - test_login - entered username and password
-2026-04-02 00:04:39,378 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
-2026-04-02 00:06:50,834 - INFO - testcases.test_login - test_login - *********** Login Test Starts ***********
-2026-04-02 00:06:56,114 - DEBUG - testcases.test_login - test_login - successfullly clicked on login/signup
-2026-04-02 00:06:58,719 - DEBUG - testcases.test_login - test_login - landed to login menu
-2026-04-02 00:07:02,454 - DEBUG - testcases.test_login - test_login - entered username and password
-2026-04-02 00:07:02,454 - INFO - testcases.test_login - test_login - *********** Login Test Ends ***********
+2026-04-03 19:48:02,684 - INFO - testcases.test_login - 22 - test_login - *********** Login Test Starts ***********
+2026-04-03 19:48:05,733 - DEBUG - testcases.test_login - 29 - test_login - successfully clicked on login/signup
+2026-04-03 19:48:06,939 - DEBUG - testcases.test_login - 31 - test_login - landed to login menu
+2026-04-03 19:48:12,553 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-03 19:48:12,553 - DEBUG - testcases.test_login - 36 - test_login - entered username and password
+2026-04-03 19:48:12,592 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-03 19:48:12,592 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-03 19:48:16,916 - INFO - testcases.test_login - 22 - test_login - *********** Login Test Starts ***********
+2026-04-03 19:48:19,384 - DEBUG - testcases.test_login - 29 - test_login - successfully clicked on login/signup
+2026-04-03 19:48:20,258 - DEBUG - testcases.test_login - 31 - test_login - landed to login menu
+2026-04-03 19:48:27,300 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-03 19:48:27,300 - DEBUG - testcases.test_login - 36 - test_login - entered username and password
+2026-04-03 19:48:27,356 - ERROR - testcases.test_login - 43 - test_login - login test --*9 because Your email or password is incorrect!
+2026-04-03 19:48:27,356 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:11:27,413 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:11:31,248 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:11:34,471 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:11:39,154 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:11:39,154 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:11:39,203 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-04 02:11:39,203 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:11:45,266 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:11:49,363 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:11:50,412 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:11:51,950 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:11:51,950 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:15:06,585 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:15:10,099 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:15:11,327 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:15:14,807 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:15:14,808 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:15:16,290 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-04 02:15:16,290 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:15:22,147 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:15:47,352 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:15:48,997 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:15:50,196 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:15:50,196 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:15:50,382 - ERROR - testcases.test_login - 43 - test_login - login test failed because Your email or password is incorrect!
+2026-04-04 02:15:50,382 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:23:10,525 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:23:15,200 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:23:18,177 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:23:23,459 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:23:23,459 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:23:23,691 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-04 02:23:23,691 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:23:29,159 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:23:33,423 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:23:34,461 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:23:35,867 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:23:35,867 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:23:35,919 - DEBUG - utility.failed_screenshot - 19 - failed_screenshot_capture - start capturing failure screenshot
+2026-04-04 02:23:36,057 - DEBUG - utility.failed_screenshot - 23 - failed_screenshot_capture - screenshot taken successfully
+2026-04-04 02:23:36,057 - ERROR - testcases.test_login - 43 - test_login - login test failed because Your email or password is incorrect!
+2026-04-04 02:23:36,057 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:26:06,445 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:26:09,405 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:26:10,913 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:26:15,048 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:26:15,048 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:26:15,088 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-04 02:26:15,088 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:26:19,744 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:26:36,167 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:26:37,206 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:26:54,095 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:26:58,045 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:26:59,785 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:27:08,618 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:27:08,618 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:27:09,237 - DEBUG - pageobject.page_login - 41 - login_success - successfully logged in
+2026-04-04 02:27:09,237 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:27:14,156 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:27:17,637 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:27:19,003 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:27:23,658 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:27:23,658 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:27:23,702 - DEBUG - utility.failed_screenshot - 19 - failed_screenshot_capture - start capturing failure screenshot
+2026-04-04 02:27:24,008 - DEBUG - utility.failed_screenshot - 23 - failed_screenshot_capture - screenshot taken successfully
+2026-04-04 02:27:24,008 - DEBUG - utility.failed_screenshot - 24 - failed_screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20262704/04/26_022723.png
+2026-04-04 02:27:24,009 - ERROR - testcases.test_login - 43 - test_login - login test failed because Your email or password is incorrect!
+2026-04-04 02:27:24,009 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:30:13,319 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:30:18,540 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:30:21,107 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:30:27,899 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:30:31,201 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:30:32,285 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:30:33,684 - DEBUG - pageobject.page_login - 29 - login - logging in
+2026-04-04 02:30:33,685 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:30:33,733 - DEBUG - utility.failed_screenshot - 19 - failed_screenshot_capture - start capturing failure screenshot
+2026-04-04 02:30:33,921 - DEBUG - utility.failed_screenshot - 23 - failed_screenshot_capture - screenshot taken successfully
+2026-04-04 02:30:33,922 - DEBUG - utility.failed_screenshot - 24 - failed_screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260404023033.png
+2026-04-04 02:30:33,922 - ERROR - testcases.test_login - 43 - test_login - login test failed because Your email or password is incorrect!
+2026-04-04 02:30:33,922 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 02:56:44,962 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:56:48,788 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:56:50,707 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:57:01,272 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:57:04,929 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:57:06,122 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:58:47,082 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:58:51,081 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:58:54,177 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:58:54,583 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 02:58:54,584 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 02:59:15,731 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 02:59:19,823 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 02:59:23,767 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 02:59:24,139 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 02:59:24,139 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:00:50,472 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:00:53,849 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:00:55,609 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:00:57,310 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 03:00:57,310 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:01:19,021 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:01:20,095 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:01:24,288 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:01:26,588 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 03:01:26,589 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:37:05,280 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:37:31,367 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:37:33,320 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:37:34,164 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 03:37:34,164 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:37:56,848 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:38:02,435 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:38:04,072 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:38:04,786 - DEBUG - pageobject.page_login - 34 - login - logging in
+2026-04-04 03:38:04,786 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:51:37,868 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:51:40,916 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:51:43,144 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:51:50,944 - DEBUG - pageobject.page_login - 35 - login - logging in
+2026-04-04 03:51:50,944 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:51:51,002 - DEBUG - pageobject.page_login - 47 - login_success - successfully logged in
+2026-04-04 03:51:51,002 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 03:51:57,137 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:52:01,332 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:52:02,550 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:52:03,866 - DEBUG - pageobject.page_login - 35 - login - logging in
+2026-04-04 03:52:03,867 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:54:16,722 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:54:24,241 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:54:27,086 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:54:32,517 - DEBUG - pageobject.page_login - 35 - login - logging in
+2026-04-04 03:54:32,518 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:54:32,558 - DEBUG - pageobject.page_login - 47 - login_success - successfully logged in
+2026-04-04 03:54:32,558 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
+2026-04-04 03:54:37,969 - INFO - testcases.test_login - 21 - test_login - *********** Login Test Starts ***********
+2026-04-04 03:54:42,646 - DEBUG - testcases.test_login - 28 - test_login - successfully clicked on login/signup
+2026-04-04 03:54:47,451 - DEBUG - testcases.test_login - 30 - test_login - landed to login menu
+2026-04-04 03:54:49,903 - DEBUG - pageobject.page_login - 35 - login - logging in
+2026-04-04 03:54:49,903 - DEBUG - testcases.test_login - 35 - test_login - entered username and password
+2026-04-04 03:54:49,945 - DEBUG - utility.failed_screenshot - 19 - failed_screenshot_capture - start capturing failure screenshot
+2026-04-04 03:54:50,519 - DEBUG - utility.failed_screenshot - 23 - failed_screenshot_capture - screenshot taken successfully
+2026-04-04 03:54:50,519 - DEBUG - utility.failed_screenshot - 24 - failed_screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260404035449.png
+2026-04-04 03:54:50,520 - ERROR - testcases.test_login - 43 - test_login - login test failed because Your email or password is incorrect!
+2026-04-04 03:54:50,520 - INFO - testcases.test_login - 45 - test_login - *********** Login Test Ends ***********
