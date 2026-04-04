@@ -19,10 +19,11 @@ class Login:
     login_button = (By.XPATH, "//button[@data-qa='login-button']")
     #Login fail
     msg = (By.XPATH,"//p[text()='Your email or password is incorrect!']")
-    #locators for signup
+    #locators for signup in login page
     signup_name = (By.XPATH, "//input[@data-qa='signup-name']")
     signup_email = (By.XPATH, "//input[@data-qa='signup-email']")
     signup_button = (By.XPATH, "//button[@data-qa='signup-button']")
+    msg = (By.XPATH,"//p[text()='Email Address already exist!']")
 
     def login(self,email,password):
         self.driver.find_element(*self.login_email).send_keys(email)
@@ -33,6 +34,7 @@ class Login:
         # self.driver.find_element(*self.login_button).click()
 
         self.log.debug("logging in")
+
 
     def login_error_message(self):
         message = self.driver.find_element(*self.msg).text
@@ -53,3 +55,13 @@ class Login:
         self.driver.find_element(*self.signup_email).send_keys(email)
         self.driver.find_element(*self.signup_button).click()
         self.log.debug("signing in")
+
+    def signuplogin_email_exists(self):
+            # as this element you will only found when emil already exist message shows
+            # if new email then it will try to search for that text but not there so NoSuchElement will occur
+            #so return msg only when there else return None
+            try:
+                return self.driver.find_element(*self.msg).text
+            except:
+                return None
+

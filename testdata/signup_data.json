@@ -1,6 +1,19 @@
 {
-  "signup" : {
-      "name" : "b",
-      "email" : "b1234@gmail.com"
-  }
+  "signup" : [
+    {
+      "name": "weryt",
+      "email": "rweyhdefgfsdg@gmail.com",
+      "password" : "b1234" ,
+      "f_name": "jack",
+      "l_name": "capton",
+      "company_detail": "pirates",
+      "address1_detail": "seaside, 001 west",
+      "country_detail": "usa",
+      "state_detail": "California",
+      "citi_detail": "LA",
+      "zipcode_detail": "132654",
+      "mobile_detail": "123456789"
+    }
+
+  ]
 }
