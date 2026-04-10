@@ -48,28 +48,28 @@ class SignUp:
         self.common.wait_for_visibility(self.wait_ele)
 
         #password enter
-        self.driver.find_element(*self.password).send_keys(data["password"])
+        self.common.send_keys_common_use(self.password , data["password"])
         #first name
-        self.driver.find_element(*self.first_name).send_keys(data["f_name"])
+        self.common.send_keys_common_use(self.first_name , data["f_name"])
         #lastname
-        self.driver.find_element(*self.last_name).send_keys(data["l_name"])
+        self.common.send_keys_common_use(self.last_name , data["l_name"])
         #company
-        self.driver.find_element(*self.company).send_keys(data["company_detail"])
+        self.common.send_keys_common_use(self.company , data["company_detail"])
         #address1
-        self.driver.find_element(*self.address1).send_keys(data["address1_detail"])
+        self.common.send_keys_common_use(self.address1 , data["address1_detail"])
         #country
-        self.driver.find_element(*self.country).send_keys(data["country_detail"])
+        self.common.send_keys_common_use(self.country , data["country_detail"])
         #state
-        self.driver.find_element(*self.state).send_keys(data["state_detail"])
+        self.common.send_keys_common_use(self.state , data["state_detail"])
         #citi
-        self.driver.find_element(*self.city).send_keys(data["citi_detail"])
+        self.common.send_keys_common_use(self.city , data["citi_detail"])
         #zipcode
-        self.driver.find_element(*self.zipcode).send_keys(data["zipcode_detail"])
+        self.common.send_keys_common_use(self.zipcode , data["zipcode_detail"])
         #mobileno
-        self.driver.find_element(*self.mobile_number).send_keys(data["mobile_detail"])
+        self.common.send_keys_common_use(self.mobile_number , data["mobile_detail"])
 
         #click create account button
-        self.driver.find_element(*self.create_account_button).click()
+        self.common.click_common_use(self.create_account_button)
 
     def signup_with_all_fields(self,data):
         #note : instead of def signup_with_all_fields(self,day_val,month_val ,year_vale ,address2_detail,f_name,l_name,company_detail,address1_detail,country_detail,state_detail,citi_detail,zipcode_detail,mobile_detail), write like above
@@ -78,10 +78,10 @@ class SignUp:
         self.signup_with_mandatory_fields(data) #expect same parameter and pass same in this signup_will_all_fields() as well so total 9+4 . so instead of self.signup_with_mandatory_fields(f_name,l_name,company_detail,address1_detail,country_detail,state_detail,citi_detail,zipcode_detail,mobile_detail) , write like above
 
         #title
-        self.driver.find_element(*self.title).click()
+        self.common.click_common_use(self.title)
 
         # select  date_of_birth
-        day_click = self.driver.find_element(*self.day)  # for sttaic dropdown no need to click(), we used select_by_value() which will take carte
+        day_click = self.driver.find_element(*self.day)  # for static dropdown no need to click(), we used select_by_value() which will take carte
         self.common.static_dropdown(day_click,data["day_val"])  # here val(variable we passed in static_method)=day_val so ideally val=10 I want to sleected but don;t pass hard coded value here, directly use in test method, there you can pass harcoded but still use parametrize for this value
 
         month_click = self.driver.find_element(*self.month)
@@ -91,11 +91,11 @@ class SignUp:
         self.common.static_dropdown(year_click, data["year_vale"])
 
         #checkbox
-        self.driver.find_element(*self.checkbox).click()
+        self.common.click_common_use(self.checkbox)
         #address2
-        self.driver.find_element(*self.address2).send_keys(data["address2_detail"])
+        self.common.send_keys_common_use(self.address2 , data["address2_detail"])
 
-        #click creste account
-        self.driver.find_element(*self.create_account_button).click()
+        #click create account
+        self.common.click_common_use(self.create_account_button)
 
 

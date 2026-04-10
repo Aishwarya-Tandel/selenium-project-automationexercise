@@ -1,16 +1,16 @@
 import json
 
 import pytest
-from pageobject.basepage import Common_Base_Page
+from pageobject.home_page import HomePage
 from pageobject.page_login import Login
 from utility.logging_log import Log_store
-from utility.failed_screenshot import Screenshot_Capture
+from utility.screenshot import ScreenshotCapture
 
 
 #read json file
 with open(r"C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\testdata\login_data.json") as login_file :
-    data = json.load(login_file)
-    test_data = data["login"]
+    test_data = json.load(login_file)
+    # test_data = data["login"]
 
 @pytest.mark.parametrize("login_test_data_list" , test_data)
 class Test_Login:
@@ -21,13 +21,14 @@ class Test_Login:
 
         log.info("*********** Login Test Starts ***********")
 
-        driver.get("https://automationexercise.com/")
+        #covered in fixture
+        # driver.get("https://automationexercise.com/")
 
         #click on login/signup menu
         #as it is from another folder/file/class so make object and use that method
-        base = Common_Base_Page(driver)
+        homepage = HomePage(driver)
         log.debug("successfully clicked on login/signup")
-        base.signup_login_menu()
+        homepage.signup_login_menu()
         log.debug("landed to login menu")
 
         #now fill login details
@@ -39,7 +40,7 @@ class Test_Login:
             assert  log_in.login_success()
         else:
             error = log_in.login_error_message()
-            Screenshot_Capture.failed_screenshot_capture(driver,"invalid_login") #take screenshot
+            ScreenshotCapture.screenshot_capture(driver,"invalid_login") #take screenshot
             assert 'incorrect' in error # do assertion/validation
             log.error(f"login test failed because {error}")
 

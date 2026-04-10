@@ -9,45 +9,6 @@ class Common_Base_Page:
     def __init__(self,driver):
         self.driver = driver
 
-    #home menu locator
-    home= (By.XPATH,"//a[normalize-space()='Home']")
-    #Products Menu Locator
-    products = (By.XPATH,"//li/a[@href='/products']")
-    #CART MENU LOCATOR
-    cart = (By.LINK_TEXT,"Cart")
-    #SIGNUP/LOGIN MENU Locator
-    signup_login = (By.LINK_TEXT, "Signup / Login")
-    #test menu locator
-    test = (By.LINK_TEXT, "Test Cases")
-    #contact menu locator
-    contact = (By.LINK_TEXT, "Contact us")
-    #logout menu locator
-    logout = (By.XPATH,"//a[@href='/logout']")
-    # subscription locator
-    subscription_email = (By.ID,"susbscribe_email")
-    subscription_click = (By.ID,"subscribe")
-
-    def home_menu(self):
-        self.driver.find_element(*self.home).click()
-    def products_menu(self):
-        self.driver.find_element(*self.products).click()
-    def cart_menu(self):
-        self.driver.find_element(*self.cart).click()
-    def signup_login_menu(self):
-        self.wait_for_clickable(self.signup_login).click()
-        # self.driver.find_element(*self.signup_login).click()
-    def test_menu(self):
-        self.driver.find_element(*self.test).click()
-    def contact_menu(self):
-        self.driver.find_element(*self.contact).click()
-
-    def logout_menu(self):
-        self.driver.find_element(*self.logout).click()
-
-    def subscription(self,email):
-        self.driver.find_element(*self.subscription_email).send_keys(email)
-        self.driver.find_element(*self.subscription_click).click()
-
     #wait till element clickable logic
     def wait_for_clickable(self,by_locator):
         wait  = WebDriverWait(self.driver,15)
@@ -67,5 +28,12 @@ class Common_Base_Page:
     def static_dropdown(self,element,val):
         select = Select(element)
         return select.select_by_value(val)
+
+    # click()
+    def click_common_use(self,locator):
+        self.driver.find_element(*locator).click()
+
+    def send_keys_common_use(self,locator,input_val):
+        self.driver.find_element(*locator).send_keys(input_val)
 
 

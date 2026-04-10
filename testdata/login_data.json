@@ -1,5 +1,4 @@
-{
-    "login" : [
+ [
       {
             "email" : "a1234@gmail.com",
             "password" : "a1234",
@@ -10,7 +9,5 @@
             "password" : "invalid",
             "scenario_success" : "wrong"
       }
-    ],
-    "comment_as_we_cant_put_comment_here" : "we can directly put in INI file also, if we are using same (only 1)) id/pass for login so it is 1 only entry so no data driven testing also fine "
 
-}
+]
