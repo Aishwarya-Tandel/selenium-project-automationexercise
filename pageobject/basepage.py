@@ -27,7 +27,7 @@ class Common_Base_Page:
     #static dropdwn
     def static_dropdown(self,element,val):
         select = Select(element)
-        return select.select_by_value(val)
+        select.select_by_value(val)
 
     # click()
     def click_common_use(self,locator):

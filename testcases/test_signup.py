@@ -55,7 +55,7 @@ class TestSignUp:
         else:
             # not take screenshot of it
             ScreenshotCapture.screenshot_capture(driver, "signup_email_exists")
-            #valiaddation
+            #validation
             assert 'Email Address already exist!' in email_exist
             log.debug("as email already exist so no sign up with same email again")
 

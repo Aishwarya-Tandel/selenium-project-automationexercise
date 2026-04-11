@@ -1,5 +1,6 @@
 import time
 
+from pageobject.basepage import Common_Base_Page
 from pageobject.page_login import Login
 from pageobject.home_page import HomePage
 
@@ -9,6 +10,8 @@ import pytest
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+
+from pageobject.page_product_search import ProductSearch
 
 """At run time decide , need to run test on which browser ?
 #1 - tell browser that this command exist
@@ -80,4 +83,27 @@ def logged_in_user(setup_teardown , request):
     home = HomePage(driver)
     return home
 
+# fixture for pre-requisite logic for search product
+@pytest.fixture
+def already_searched_logic(setup_teardown,request):
+    driver=setup_teardown
+
+    data = request.param
+
+    # click on product menu
+    home = HomePage(driver)
+    home.products_menu()
+
+    # type product name to search
+    search = ProductSearch(driver)
+    search.click_on_search_item(data)
+
+    # click on search button
+    search.click_on_search_button()
+
+    # wait till search done
+    base = Common_Base_Page(driver)
+    base.wait_for_visibility(search.searched_done)
+
+    return search
 
