@@ -105,5 +105,5 @@ def already_searched_logic(setup_teardown,request):
     base = Common_Base_Page(driver)
     base.wait_for_visibility(search.searched_done)
 
-    return search
+    return driver ,search  # in one of the test file "test_submit_review_of_product", i want to use driver as well along with search so returned both
 

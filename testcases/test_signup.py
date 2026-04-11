@@ -14,8 +14,9 @@ with open(r"C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\
     li = json.load(f)
     data_list = li["signup"]
 
-@pytest.mark.parametrize("data_name_email", data_list)
+
 class TestSignUp:
+    @pytest.mark.parametrize("data_name_email", data_list)
     def test_signup(self,setup_teardown,data_name_email):
         driver = setup_teardown
 

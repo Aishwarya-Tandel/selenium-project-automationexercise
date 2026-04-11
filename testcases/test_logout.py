@@ -6,8 +6,9 @@ from pageobject.basepage import Common_Base_Page
 with open(r"C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\testdata\login_data.json") as f:
     data_j = json.load(f)
 
-@pytest.mark.parametrize("logged_in_user", [data_j[0]], indirect=True)
+
 class TestLogout:
+    @pytest.mark.parametrize("logged_in_user", [data_j[0]], indirect=True)
     def test_logout(self ,logged_in_user): # here no need to write "setup_teardown" fixture because this fixture "logged_in_user", already have this setup_teardown
 
         # covered in fixture

@@ -12,8 +12,9 @@ with open(r"C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\
     test_data = json.load(login_file)
     # test_data = data["login"]
 
-@pytest.mark.parametrize("login_test_data_list" , test_data)
+
 class Test_Login:
+    @pytest.mark.parametrize("login_test_data_list", test_data)
     def test_login(self,setup_teardown,login_test_data_list):
         driver =  setup_teardown
 
@@ -42,7 +43,7 @@ class Test_Login:
             error = log_in.login_error_message()
             ScreenshotCapture.screenshot_capture(driver,"invalid_login") #take screenshot
             assert 'incorrect' in error # do assertion/validation
-            log.error(f"login test failed because {error}")
+            log.error(f"login test success with invalid login data and details: {error}")
 
         log.info("*********** Login Test Ends ***********")
 

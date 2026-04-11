@@ -1,6 +1,4 @@
 import json
-import time
-
 import pytest
 from pageobject.basepage import Common_Base_Page
 from pageobject.home_page import HomePage
@@ -10,8 +8,9 @@ with open(r"C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\
     data_list = json.load(f)
     data = [data_list[0]["search"][0]]
 
-@pytest.mark.parametrize("data_use" , data)
+
 class TestSearchProduct:
+    @pytest.mark.parametrize("data_use", data)
     def test_search_product(self,setup_teardown , data_use):
         driver = setup_teardown
 
@@ -32,6 +31,21 @@ class TestSearchProduct:
 
         assert 'searched' in search.is_searched_successful().lower()
 
-        p_names = search.product_names_and_click_on_view_product()
-        assert 'Blue Top' in p_names
+
+    @pytest.mark.parametrize("already_searched_logic", data , indirect=True)
+    def test_view_product(self,already_searched_logic):
+        # driver = already_searched_logic
+
+        #already loggedin prerequisite done so now view product whose name is "Blue Top"
+
+        #as already object made for ProductSearch class and we returned it . we need same class
+        # so instead of creating same class here we can just use same fixture or do # driver = already_searched_logic and use driver name
+
+
+        # as with this method you already searched , on which product you want to click so click
+        already_searched_logic.product_names_and_click_on_view_product()
+
+        # check if successfully landed on product_details page
+        already_searched_logic.is_successfully_reached_on_view_product()
+
 
