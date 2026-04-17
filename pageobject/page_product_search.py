@@ -28,6 +28,8 @@ class ProductSearch(Common_Base_Page):
     #specific product locator to use to click on view product
     # till he same then continues --> //div[@class='productinfo text-center']/p[normalize-space()='Summer White Top']
     view_product_button = (By.XPATH, ".//ancestor::div[@class='product-image-wrapper']/div[@class='choose']/ul/li/a[normalize-space()='View Product']")
+    add_to_cart_button_search = (By.XPATH, "//div[@class='productinfo text-center']/a[normalize-space()='Add to cart']")
+    cart_added_text = (By.XPATH,"//div/p[normalize-space()='Your product has been added to cart.']")
 
     brand_polo = (By.LINK_TEXT,"/brand_products/Polo")
     brand_H_and_M = (By.LINK_TEXT, "/brand_products/H&M")
@@ -57,12 +59,31 @@ class ProductSearch(Common_Base_Page):
 
             if name.text == 'Summer White Top':
                 #click on that specific view product
-                p = name.find_element(*self.view_product_button).click()
+                name.find_element(*self.view_product_button).click() ##########
                 break
 
 
     def is_successfully_reached_on_view_product(self):
         assert 'product_details' in self.driver.current_url
+
+    def click_on_add_to_cart_from_product_search(self):
+        # for view product --> we looked for specific 1 product and then we did view card for that specific
+        # same we do for add_to cart --> look for specific product from searched result, then click on add to cart
+
+        names = self.driver.find_elements(*self.p_names)
+        for name in names:
+            if name.text == 'Summer White Top':
+                name.find_element(*self.add_to_cart_button_search).click()
+                break
+
+    """
+        as we saw on ProductDetails Page --> add to cart + view cart or continue shopping
+        for add to cart button differnt locators so we created seperate method
+        But after click on "add to cart" --> the popup come for view cart and continue shopping
+        which have same locators on ProductSearch Page as well 
+        so instead creating different method lets use same
+
+    """
 
     def click_on_women_products(self):
         self.click_common_use(self.women_products)
