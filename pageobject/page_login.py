@@ -46,7 +46,7 @@ class Login:
         return message
 
     def login_success(self):
-        # put one wait condition , like as you know if logout menu comes means successfull login...
+        # put one wait condition , like as you know if logout menu comes means successful login...
         #so lets wait till logot menu visible/clickable
         #use same wait method from common page and logout element method  from home page
 

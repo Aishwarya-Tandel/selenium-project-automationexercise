@@ -916,3 +916,129 @@
 2026-04-11 04:21:39,108 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
 2026-04-11 04:21:39,108 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260411042138.png
 2026-04-11 04:21:39,109 - DEBUG - testcases.test_signup - 60 - test_signup - as email already exist so no sign up with same email again
+2026-04-25 20:42:44,281 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-25 20:42:44,283 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-25 20:42:45,617 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-25 20:42:47,088 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-25 20:42:47,088 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-25 20:43:11,412 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-25 20:43:11,412 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-25 20:43:12,488 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-25 20:43:13,657 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-25 20:43:13,658 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-25 20:43:13,706 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-25 20:43:13,859 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-25 20:43:13,860 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260425204313.png
+2026-04-25 20:43:13,860 - ERROR - testcases.test_login - 46 - test_login - login test success with invalid login data and details: Your email or password is incorrect!
+2026-04-25 20:43:13,860 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-25 20:43:29,518 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-25 20:45:43,866 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-25 20:45:43,915 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-25 20:45:44,058 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-25 20:45:44,058 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260425204543.png
+2026-04-25 20:45:44,059 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
+2026-04-25 20:46:40,012 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-25 20:46:40,052 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-25 20:46:40,178 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-25 20:46:40,178 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260425204640.png
+2026-04-25 20:46:40,178 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
+2026-04-25 20:54:28,884 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-25 20:54:28,885 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-25 20:54:32,163 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-25 20:54:37,434 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-25 20:54:37,435 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-25 20:54:37,475 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-25 20:54:37,476 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-25 20:54:44,308 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-25 20:54:44,309 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-25 20:54:45,484 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-25 20:54:47,201 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-25 20:54:47,202 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-25 20:54:47,260 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-25 20:54:47,396 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-25 20:54:47,396 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260425205447.png
+2026-04-25 20:54:47,397 - ERROR - testcases.test_login - 46 - test_login - login test success with invalid login data and details: Your email or password is incorrect!
+2026-04-25 20:54:47,397 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:27:28,701 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:27:28,702 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:27:32,966 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:27:39,348 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:27:39,348 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:27:39,382 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:27:39,382 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:27:48,244 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:27:48,245 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:27:49,522 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:27:51,402 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:27:51,403 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:27:51,562 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:27:52,051 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:27:52,052 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260426172751.png
+2026-04-26 17:27:52,052 - ERROR - testcases.test_login - 46 - test_login - login test success with invalid login data and details: Your email or password is incorrect!
+2026-04-26 17:27:52,053 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:28:22,258 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:28:22,307 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:41:09,011 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:41:09,292 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:41:10,182 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:41:10,183 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260426174109.png
+2026-04-26 17:41:10,184 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
+2026-04-26 17:41:28,115 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:41:37,806 - DEBUG - testcases.test_signup - 47 - test_signup - ACCOUNT CREATED!
+2026-04-26 17:41:37,807 - DEBUG - testcases.test_signup - 48 - test_signup - account created
+2026-04-26 17:41:48,491 - DEBUG - testcases.test_signup - 51 - test_signup - accounted created so continue.....
+2026-04-26 17:41:48,532 - DEBUG - testcases.test_signup - 55 - test_signup - after account created, you continued and landed to home page
+2026-04-26 17:49:29,751 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:49:31,045 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:49:40,311 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:49:44,863 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:49:44,866 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:49:46,832 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:49:47,821 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:49:47,822 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260426174946.png
+2026-04-26 17:49:47,833 - ERROR - testcases.test_login - 46 - test_login - login test success with invalid login data and details: Your email or password is incorrect!
+2026-04-26 17:49:47,833 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:50:19,535 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:50:19,549 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:50:22,708 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:50:32,530 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:50:32,533 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:50:33,255 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:50:33,289 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:50:37,513 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:50:47,252 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:51:39,149 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:51:39,230 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:51:39,477 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:51:39,477 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260426175139.png
+2026-04-26 17:51:39,478 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
+2026-04-26 17:52:33,375 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:52:33,862 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:52:34,039 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:52:34,039 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260426175233.png
+2026-04-26 17:52:34,045 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
+2026-04-26 17:53:21,088 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:53:21,091 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:53:22,560 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:53:26,107 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:53:26,108 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:53:26,142 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:53:26,142 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:53:35,746 - INFO - testcases.test_login - 23 - test_login - *********** Login Test Starts ***********
+2026-04-26 17:53:35,747 - DEBUG - testcases.test_login - 31 - test_login - successfully clicked on login/signup
+2026-04-26 17:53:37,308 - DEBUG - testcases.test_login - 33 - test_login - landed to login menu
+2026-04-26 17:53:39,684 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:53:39,684 - DEBUG - testcases.test_login - 38 - test_login - entered username and password
+2026-04-26 17:53:39,735 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:53:40,391 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:53:40,392 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/invalid_login_20260426175339.png
+2026-04-26 17:53:40,392 - ERROR - testcases.test_login - 46 - test_login - login test success with invalid login data and details: Your email or password is incorrect!
+2026-04-26 17:53:40,392 - INFO - testcases.test_login - 48 - test_login - *********** Login Test Ends ***********
+2026-04-26 17:53:53,022 - DEBUG - pageobject.page_login - 41 - login - logging in
+2026-04-26 17:53:53,062 - DEBUG - pageobject.page_login - 54 - login_success - successfully logged in
+2026-04-26 17:55:57,566 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:56:30,510 - DEBUG - pageobject.page_login - 62 - signup_loginpage - signing in
+2026-04-26 17:56:30,578 - DEBUG - utility.screenshot - 19 - screenshot_capture - start capturing failure screenshot
+2026-04-26 17:56:30,725 - DEBUG - utility.screenshot - 23 - screenshot_capture - screenshot taken successfully
+2026-04-26 17:56:30,725 - DEBUG - utility.screenshot - 24 - screenshot_capture - Screenshot saved at: C:\Users\LENOVO\PycharmProjects\selenium-project-automationexercise\screenshots/signup_email_exists_20260426175630.png
+2026-04-26 17:56:30,725 - DEBUG - testcases.test_signup - 61 - test_signup - as email already exist so no sign up with same email again
